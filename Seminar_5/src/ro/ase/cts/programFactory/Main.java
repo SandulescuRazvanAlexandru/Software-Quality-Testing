@@ -1,5 +1,6 @@
 package ro.ase.cts.programFactory;
 
+import ro.ase.cts.SingleTonPLusFactory.SingleFact;
 import ro.ase.cts.claseFactory.*;
 
 public class Main {
@@ -13,9 +14,11 @@ public class Main {
         PersonalMedical asistent = factory.create(TipPersonal.ASISTENT, "Bbbb", 200f);
 //        Asistent asistent2 = (Asistent) factory.create(TipPersonal.ASISTENT, "Bbbb", 200f, 36);
 
-
         System.out.println(medic);
         System.out.println(asistent);
 
+
+        PersonalMedical medic2 = SingleFact.getInstance().create(TipPersonal.MEDIC, "Cccc", 500f);
+        System.out.println(medic2);
     }
 }
