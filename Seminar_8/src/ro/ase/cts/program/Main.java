@@ -2,6 +2,8 @@ package ro.ase.cts.program;
 
 import ro.ase.cts.clase.Facade;
 import ro.ase.cts.clase.Masa;
+import ro.ase.cts.claseComposite.Produs;
+import ro.ase.cts.claseComposite.Sectiune;
 
 public class Main {
     public static void main(String[] args) {
@@ -32,5 +34,30 @@ public class Main {
         else {
             System.out.println("Va rog mai asteptati");
         }
+
+        System.out.println("--------------------------------------------------------------------------------");
+
+        Sectiune bauturi = new Sectiune(("bauturi"));
+        Sectiune desert = new Sectiune(("desert"));
+
+        Produs cola = new Produs("Cola");
+        Produs tiramisu = new Produs("Tiramisu");
+        Produs frappe = new Produs("Frappe");
+
+        Sectiune meniu = new Sectiune("Meniu");
+        meniu.adaugaNod(bauturi);
+        meniu.adaugaNod(desert);
+
+        bauturi.adaugaNod(cola);
+        bauturi.adaugaNod(frappe);
+        desert.adaugaNod(tiramisu);
+
+        meniu.printareElement();
+
+        desert.adaugaNod(frappe);
+        bauturi.stergeNod(frappe);
+
+        System.out.println();
+        meniu.printareElement();
     }
 }
