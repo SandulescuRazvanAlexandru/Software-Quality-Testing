@@ -4,6 +4,9 @@ import ro.ase.cts.clase.Facade;
 import ro.ase.cts.clase.Masa;
 import ro.ase.cts.claseComposite.Produs;
 import ro.ase.cts.claseComposite.Sectiune;
+import ro.ase.cts.claseFW.Client;
+import ro.ase.cts.claseFW.FlyWeightFactory;
+import ro.ase.cts.claseFW.Rezervare;
 
 public class Main {
     public static void main(String[] args) {
@@ -59,5 +62,20 @@ public class Main {
 
         System.out.println();
         meniu.printareElement();
+
+        System.out.println("--------------------------------------------------------------------------------");
+
+        Rezervare rezervare1 = new Rezervare(1, 1);
+        Rezervare rezervare2 = new Rezervare(2, 1);
+        Rezervare rezervare3 = new Rezervare(3, 1);
+
+        FlyWeightFactory flyWeightFactory = new FlyWeightFactory();
+
+        flyWeightFactory.getClient("123456").printeaza(rezervare1);
+        flyWeightFactory.getClient("987654").printeaza(rezervare2);
+        flyWeightFactory.getClient("123456").printeaza(rezervare3);
+
+
+
     }
 }
