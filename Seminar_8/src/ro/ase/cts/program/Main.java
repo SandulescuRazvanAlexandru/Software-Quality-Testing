@@ -75,7 +75,7 @@ public class Main {
         flyWeightFactory.getClient("987654").printeaza(rezervare2);
         flyWeightFactory.getClient("123456").printeaza(rezervare3);
 
-
+        //end
 
     }
 }
