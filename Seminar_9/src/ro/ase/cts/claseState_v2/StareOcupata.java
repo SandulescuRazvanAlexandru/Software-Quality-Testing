@@ -8,7 +8,7 @@ public class StareOcupata implements Stare {
             masa.setStare(this);
         }
         else {
-            System.out.println("Masa nu poate fi eliberata");
+            System.out.println("Masa nu poate fi ocupata");
         }
     }
 }

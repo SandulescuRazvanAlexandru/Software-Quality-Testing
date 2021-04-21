@@ -19,7 +19,7 @@ public class Masa {
         return stare;
     }
 
-    public void setStare(Stare stare) {
+    void setStare(Stare stare) {
         this.stare = stare;
     }
 

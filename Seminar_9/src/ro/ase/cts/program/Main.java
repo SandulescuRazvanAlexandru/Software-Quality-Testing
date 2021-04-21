@@ -3,6 +3,7 @@ package ro.ase.cts.program;
 import ro.ase.cts.clase.ManagerRezervari;
 import ro.ase.cts.clase.ProxyManager;
 import ro.ase.cts.claseState.Masa;
+import ro.ase.cts.claseState_v2.StareLibera;
 import ro.ase.cts.claseStrategy.Client;
 import ro.ase.cts.claseStrategy.PlataBonuriMasa;
 import ro.ase.cts.claseStrategy.PlataCard;
@@ -35,12 +36,13 @@ public class Main {
         masa1.cerereEliberare();
 
         System.out.println("--------------------------------------------------------------");
-        Masa masa2 = new Masa(1);
-        masa2.cerereEliberare();
-        masa2.cerereRezervare();
-        masa2.cerereOcupare();
-        masa2.cerereRezervare();
-        masa2.cerereEliberare();
 
+        ro.ase.cts.claseState_v2.Masa masa2 = new ro.ase.cts.claseState_v2.Masa(1);
+        masa2.elibereazaMasa();
+        masa2.ocupaMasa();
+        //masa2.setStare(new StareLibera());
+        masa2.rezervaMasa();
+        masa2.elibereazaMasa();
+        masa2.rezervaMasa();
     }
 }
