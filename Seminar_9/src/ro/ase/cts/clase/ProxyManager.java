@@ -14,8 +14,7 @@ public class ProxyManager implements Rezervabil {
         if(nrPersoane >= this.nrMinimPersoane) {
             this.managerRezervari.rezerva(nrPersoane);
         }
-        else
-        {
+        else {
             System.out.println("Rezervarea nu se poate realiza. Puteti reveni fara rezervare, deoarece exista locuri.");
         }
     }
