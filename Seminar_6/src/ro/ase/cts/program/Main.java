@@ -4,15 +4,15 @@ import ro.ase.cts.clase.*;
 
 public class Main {
 
-    public static void afiseazaInfo(FabricaJucator fabrica, String nume, int nrTricou) {
+    public static void afiseazaInfoJucator(FabricaJucator fabrica, String nume, int nrTricou) {
         Jucator jucator = fabrica.creazaJucator(nume, nrTricou);
         System.out.println(jucator.toString());
     }
 
     public static void main(String[] args) {
-        afiseazaInfo(new FabricaAtacant(), "Aaaa", 10);
-        afiseazaInfo(new FabricaPortar(), "Bbbb", 15);
+        afiseazaInfoJucator(new FabricaAtacant(), "Aaaa", 10);
+        afiseazaInfoJucator(new FabricaPortar(), "Bbbb", 15);
 
-        afiseazaInfo(new FabricaMijlocas(), "Cccc", 20);
+        afiseazaInfoJucator(new FabricaMijlocas(), "Cccc", 20);
     }
 }

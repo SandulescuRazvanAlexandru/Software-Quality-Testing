@@ -53,5 +53,10 @@ public class Main {
         contCurent.realizeazaPlata(100);
         contCurent.realizeazaPlata(100);
         contCurent.realizeazaPlata(100);
+
+        System.out.println("---------------------------------------------------------------");
+
+
+
     }
 }

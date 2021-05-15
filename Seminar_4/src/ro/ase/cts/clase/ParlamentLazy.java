@@ -7,13 +7,13 @@ public class ParlamentLazy {
     private int durataMandat;
     private String denumireSediu;
 
-    //lazy initialization
-    private static ParlamentLazy parlamentLazy = null;
+    // Lazy initialization
+    private static ParlamentLazy instance = null;
     public static synchronized ParlamentLazy getInstance(String tara, int nrParlamentari, int durataMandat, String denumireSediu) {
-        if (parlamentLazy == null) {
-            parlamentLazy = new ParlamentLazy(tara, nrParlamentari, durataMandat,denumireSediu);
+        if (instance == null) {
+            instance = new ParlamentLazy(tara, nrParlamentari, durataMandat,denumireSediu);
         }
-        return parlamentLazy;
+        return instance;
     }
 
     private ParlamentLazy() {

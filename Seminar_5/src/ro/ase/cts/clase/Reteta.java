@@ -8,8 +8,7 @@ public class Reteta implements AbstractPrototype {
     private List<String> solutii;
     private List<Integer> cantitati;
 
-    private Reteta() {
-    }
+    private Reteta() { } // ca sa nu poata fi apelat din main (pot sa introduc ceva ce sa nu fie validat corect)
 
     public Reteta(List<String> solutii, List<Integer> cantitati) {
         //realizam validari
@@ -44,7 +43,7 @@ public class Reteta implements AbstractPrototype {
 
     @Override
     public AbstractPrototype copiaza() {
-        Reteta copie = new Reteta();
+        Reteta copie = new Reteta(); // il folosim pe acesta, pentru ca cel cu parametri consuma resurse (ex: validari)
         copie.solutii = new ArrayList<>();
         copie.solutii.addAll(this.solutii);
         copie.cantitati = new ArrayList<>();

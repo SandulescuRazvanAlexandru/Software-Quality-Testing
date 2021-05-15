@@ -10,20 +10,24 @@ public class Main {
 //        Rezervare rezervare = new Rezervare(12, false, true, true, false, "Aaaa");
 //        System.out.println(rezervare.toString());
 
-        //Rezervare builderRezervare = new BuilderRezervare().setCodRezervare(20).setAreBauturaRacoritoare(true).setGenMuzical("changed").build();
-
         BuilderRezervare builderRezervare = new BuilderRezervare()
-                .setCodRezervare(20)
+                .setCodRezervare(20) // pot fi puse in orice ordine
                 .setAreBauturaRacoritoare(true)
                 .setGenMuzical("changed");
         Rezervare rezervare1 = builderRezervare.build();
         System.out.println(rezervare1.toString());
 
+        // este recomandat INLINE !!!
         Rezervare rezervare2 = new BuilderRezervare()
                 .setCodRezervare(30)
                 .setAreBauturaRacoritoare(true)
                 .build();
         System.out.println(rezervare2.toString());
+
+        Rezervare rezervare100 = new BuilderRezervare(100)
+                .setAreBauturaRacoritoare(true)
+                .build();
+        System.out.println(rezervare100.toString());
 
         //shallow copy - dezavantaj
         Rezervare rezervare3 = builderRezervare.setCodRezervare(40).build();

@@ -1,4 +1,4 @@
-package ro.ase.cts.SingleTonPLusFactory;
+package ro.ase.cts.claseSingleTonPLusFactory;
 
 import ro.ase.cts.claseFactory.*;
 

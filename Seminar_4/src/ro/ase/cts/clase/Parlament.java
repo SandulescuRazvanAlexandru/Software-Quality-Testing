@@ -7,10 +7,11 @@ public class Parlament {
     private int durataMandat;
     private String denumireSediu;
 
-    private static Parlament parlament = new Parlament(); // eager initialization
+    // Eager initialization
+    private static Parlament instance = new Parlament();
 
     public static Parlament getInstance() {
-        return parlament;
+        return instance;
     }
 
     private Parlament() {

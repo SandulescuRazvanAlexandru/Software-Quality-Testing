@@ -10,7 +10,7 @@ public class Leasing {
     }
 
     public void oferaLeasing() {
-        System.out.println("Pentru clientul " + this.numeClient + " a fost oferit un leasing de " + this.suma + " euro");
+        System.out.println("Pentru clientul " + this.numeClient + " a fost oferit un leasing de "
+                + this.suma + " euro");
     }
-
 }
