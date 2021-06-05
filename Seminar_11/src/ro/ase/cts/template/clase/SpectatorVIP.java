@@ -10,9 +10,7 @@ public class SpectatorVIP extends Template {
     }
 
     @Override
-    public void seAsazaLaCoada() {
-
-    }
+    public void seAsazaLaCoada() { }
 
     @Override
     public void prezintaBilet() {
