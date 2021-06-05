@@ -40,4 +40,5 @@ public class GrupaTestWithMocks {
         StudentDummy studentDummy = new StudentDummy();
         grupa.adaugaStudent(studentDummy);
     }
+
 }
