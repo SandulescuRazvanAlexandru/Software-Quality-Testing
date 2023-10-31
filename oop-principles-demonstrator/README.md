@@ -20,11 +20,15 @@ Ensure the Java Development Kit (JDK) is installed on your machine to compile an
 
 1. Clone the repository.
 2. Navigate to the directory containing the source files.
-3. Compile the files:  
-    ```javac program/*.java```
+3. Compile the files:
+   ```java
+   javac program/*.java
+   ```
 4. Run the main program:
-    ```java program.Main```
-   
+   ```java
+   java program.Main
+   ```
+
 ## Contributing
 
 For contributions, please fork the repository and create a pull request. For any issues encountered, kindly report them in the issue tracker.
@@ -32,4 +36,3 @@ For contributions, please fork the repository and create a pull request. For any
 ## License
 
 This project is licensed under the MIT License (or insert your preferred license here).
-
