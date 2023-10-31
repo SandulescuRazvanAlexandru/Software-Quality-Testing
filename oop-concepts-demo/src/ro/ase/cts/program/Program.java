@@ -18,7 +18,7 @@ public class Program {
         List<Aplicant> listaAplicant;
         Proiect proiect  =new Proiect(80);
         try {
-            listaAplicant = citesteAplicanti(new EleviReader("Seminar_2/elevi.txt"));
+            listaAplicant = citesteAplicanti(new EleviReader("File/elevi.txt"));
             for (Aplicant aplicant : listaAplicant) {
                 System.out.println(aplicant.toString());
                 System.out.println(aplicant.getFinantare());
