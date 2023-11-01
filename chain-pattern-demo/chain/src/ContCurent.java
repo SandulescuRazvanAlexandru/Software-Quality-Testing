@@ -1,14 +1,12 @@
-package claseChain;
-
-public class ContEconomii extends Cont {
-    public ContEconomii(float sold) {
+public class ContCurent extends Cont {
+    public ContCurent(float sold) {
         super(sold);
     }
 
     @Override
     public void realizeazaPlata(float suma) {
         if(super.getSold() >= suma) {
-            System.out.println("Se realizeaza plata din contul de economii in valoare de " + suma);
+            System.out.println("Se realizeaza plata din contul curent in valoare de " + suma);
             super.setSold(super.getSold()-suma);
         }
         else if(super.getSuccesorCont() != null) {

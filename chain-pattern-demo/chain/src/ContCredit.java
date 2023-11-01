@@ -1,5 +1,3 @@
-package claseChain;
-
 public class ContCredit extends Cont {
     public ContCredit(float sold) {
         super(sold);

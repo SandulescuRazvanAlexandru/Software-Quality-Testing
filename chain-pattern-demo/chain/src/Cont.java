@@ -1,5 +1,3 @@
-package claseChain;
-
 public abstract class Cont {
     private float sold;
     private Cont succesorCont;

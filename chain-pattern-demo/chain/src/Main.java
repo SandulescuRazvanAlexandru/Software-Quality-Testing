@@ -1,19 +1,6 @@
-package program;
-
-import clase.*;
-import claseChain.Cont;
-import claseChain.ContCredit;
-import claseChain.ContCurent;
-import claseChain.ContEconomii;
-
 public class Main {
     public static void main(String[] args) {
-
-
-
-        System.out.println("---------------------------------------------------------------");
-
-//        Cont contCurent = new ContCurent(200);
+        //        Cont contCurent = new ContCurent(200);
 //        Cont contCredit = new ContCredit(150);
 //        Cont contEconomii = new ContEconomii(150);
 //
@@ -38,10 +25,5 @@ public class Main {
         contCurent.realizeazaPlata(100);
         contCurent.realizeazaPlata(100);
         contCurent.realizeazaPlata(100);
-
-        System.out.println("---------------------------------------------------------------");
-
-
-
     }
 }
