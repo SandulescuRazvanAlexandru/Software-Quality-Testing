@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9347e690-dd9b-483a-818c-e090bad106c9" name="Changes" comment="" />
+    <list default="true" id="f14680dc-ecef-4a19-a5bd-35dcb31d1e37" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Seminar_12/Seminar_12.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Seminar_12/Seminar_12.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Seminar_13/Seminar_13.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Seminar_13/Seminar_13.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_CTS.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,9 +18,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
+  "associatedIndex": 5
 }]]></component>
-  <component name="ProjectId" id="2XZCVcfrbEWrTxAZUUyAmHFtuKV" />
+  <component name="ProjectId" id="2XZW7AbYtKAPIOdm03kJAZXmb5j" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,17 +29,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Razvan/Desktop/Software_Quality_Testing_Github/Software-Quality-Testing/prototype-pattern-demo"
+    "last_opened_file_path": "C:/Users/Razvan/Desktop/Software_Quality_Testing_Github/Software-Quality-Testing/Test_CTS"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9347e690-dd9b-483a-818c-e090bad106c9" name="Changes" comment="" />
-      <created>1698827240122</created>
+      <changelist id="f14680dc-ecef-4a19-a5bd-35dcb31d1e37" name="Changes" comment="" />
+      <created>1698836912842</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1698827240122</updated>
+      <updated>1698836912842</updated>
     </task>
     <servers />
   </component>
