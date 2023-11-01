@@ -1,7 +1,7 @@
-package ro.ase.cts.teste;
+package JUnitTestBasic.teste;
 
 import org.junit.Test;
-import ro.ase.cts.clase.Student;
+import JUnitTestBasic.clase.Student;
 
 import static org.junit.Assert.*;
 

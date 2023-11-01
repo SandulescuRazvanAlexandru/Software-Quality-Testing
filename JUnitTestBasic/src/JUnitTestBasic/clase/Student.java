@@ -1,4 +1,4 @@
-package ro.ase.cts.clase;
+package JUnitTestBasic.clase;
 
 import java.util.ArrayList;
 import java.util.List;
