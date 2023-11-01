@@ -9,8 +9,8 @@ public class Factory {
             case ASISTENT -> {
                 return new Asistent(nume, salariu);
             }
-            case BRCEVA -> {
-                return new Brceva(nume, salariu);
+            case BRANCARDIER -> {
+                return new Brancardier(nume, salariu);
             }
             default -> throw new IllegalArgumentException("Smth not okay bro");
         }
