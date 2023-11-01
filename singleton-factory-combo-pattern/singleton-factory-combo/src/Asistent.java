@@ -1,5 +1,3 @@
-package ro.ase.cts.claseFactory;
-
 public class Asistent extends PersonalMedical {
 //    private int durataLucru;
 

@@ -1,5 +1,3 @@
-package ro.ase.cts.claseFactory;
-
 public class Factory {
     public PersonalMedical create(TipPersonal tip, String nume, float salariu) {
         switch (tip) {

@@ -1,5 +1,3 @@
-package ro.ase.cts.claseFactory;
-
 public abstract class PersonalMedical {
     private String nume;
     private float salariu;

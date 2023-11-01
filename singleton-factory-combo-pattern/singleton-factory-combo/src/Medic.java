@@ -1,5 +1,3 @@
-package ro.ase.cts.claseFactory;
-
 public class Medic extends PersonalMedical {
     public Medic(String nume, float salariu) {
         super(nume, salariu);

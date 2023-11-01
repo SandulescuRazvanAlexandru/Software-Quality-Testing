@@ -1,5 +1,3 @@
-package ro.ase.cts.claseFactory;
-
 public class Brancardier extends PersonalMedical {
     public Brancardier(String nume, float salariu) {
         super(nume, salariu);

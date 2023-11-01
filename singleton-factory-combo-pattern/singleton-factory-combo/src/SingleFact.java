@@ -1,7 +1,3 @@
-package ro.ase.cts.claseSingleTonPLusFactory;
-
-import ro.ase.cts.claseFactory.*;
-
 public class SingleFact {
 
     private static SingleFact singleFact = null;
