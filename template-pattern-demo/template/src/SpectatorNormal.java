@@ -1,5 +1,3 @@
-package ro.ase.cts.template.clase;
-
 public class SpectatorNormal extends Template {
     private String numeSpectator;
 

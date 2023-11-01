@@ -1,5 +1,3 @@
-package ro.ase.cts.template.clase;
-
 public abstract class Template {
     public final void intraPeStadion() {
         seAsazaLaCoada();

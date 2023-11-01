@@ -1,5 +1,3 @@
-package ro.ase.cts.template.clase;
-
 public class SpectatorVIP extends Template {
     private String nume;
     private int nrLoja;
