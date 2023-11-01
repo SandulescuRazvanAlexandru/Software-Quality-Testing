@@ -1,0 +1,6 @@
+Developed a comprehensive repository implementing core design patterns in Java, encompassing Singleton, Builder, Adapter, Chain, Command, Composite, Decorator, Facade, Factory, Flyweight, Memento, Observer, Prototype, Proxy, State (v1 & v2), Strategy, and Template patterns. Enhanced understanding of software design principles and demonstrated practical application.
+
+**Design Patterns Repository**:
+[github_link_here]
+A comprehensive Java repository showcasing the implementation of core design patterns to enhance software design and their practical application:
+- **Patterns Covered**: Abstract Factory, Adapter, Builder, Chain, Command, Composite, Decorator, Facade, Factory, Flyweight, Memento, Observer, Prototype, Proxy, Singleton-Factory Combo, State (v1 and v2), Strategy, and Template.
