@@ -1,5 +1,3 @@
-package ro.ase.cts.claseDecorator;
-
 public abstract class DecoratorAbstract implements CardBancar {
     private Card card;
 

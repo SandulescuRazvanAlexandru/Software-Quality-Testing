@@ -1,5 +1,3 @@
-package ro.ase.cts.claseDecorator;
-
 public class Card implements CardBancar {
     private String titular;
 

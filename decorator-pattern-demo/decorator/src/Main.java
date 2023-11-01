@@ -1,9 +1,3 @@
-package ro.ase.cts.programDecorator;
-
-import ro.ase.cts.claseDecorator.Card;
-import ro.ase.cts.claseDecorator.DecoratorContactlessCard;
-import ro.ase.cts.claseDecorator.DecoratorContactlessTelefon;
-
 public class Main {
     public static void main(String[] args) {
         Card card = new Card("Aaaa");

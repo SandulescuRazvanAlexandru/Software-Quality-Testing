@@ -1,5 +1,3 @@
-package ro.ase.cts.claseDecorator;
-
 public class DecoratorContactlessCard extends DecoratorAbstract {
     public DecoratorContactlessCard(Card card) {
         super(card);
